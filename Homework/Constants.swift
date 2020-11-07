@@ -9,7 +9,14 @@ import Foundation
 
 struct Constants {
     struct Storyboard {
+        // MARK: - Reusable Identifiers
         static let FriendCellIdentifier = "FriendCell"
         static let HomeViewController = "HomeViewController"
+        static let UserGroupsCellIdentifier = "UserGroupsCell"
+        static let GroupsCellIdentifier = "GroupsCell"
+        static let FriendPhotoCellIdentifier = "FriendPhotoCell"
+        
+        // MARK: - Segues
+        static let FriendPhotoSegue = "showFriendPhoto"
     }
 }
